@@ -1,3 +1,5 @@
+package hanoi1;
+
 public class Disque2  extends Disque  {
 
     private int val2;

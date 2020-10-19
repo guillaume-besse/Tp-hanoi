@@ -1,3 +1,5 @@
+
+package hanoi1;
 // Une sous-classe de Tour dans laquelle chaque mouvement donne un message
 public class TourNommee extends Tour {
 

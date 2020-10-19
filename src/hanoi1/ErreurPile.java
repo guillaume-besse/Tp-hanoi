@@ -1,3 +1,5 @@
+package hanoi1;
+
 public class ErreurPile extends Exception {
 
     public ErreurPile() {

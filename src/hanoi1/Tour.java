@@ -1,3 +1,4 @@
+package hanoi1;
 public class Tour extends Pile<Disque> {
 
     public Tour(int capa) {

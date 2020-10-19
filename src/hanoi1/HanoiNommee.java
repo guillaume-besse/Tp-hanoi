@@ -1,3 +1,4 @@
+package hanoi1;
 import java.util.ArrayList;
 
 // Une sous-classe de Hanoi qui utilise des instances de TourNommee
