@@ -10,9 +10,9 @@ public class Tour extends Pile<Disque> {
     // sur un disque strictement plus petit.
     public void empiler(Disque v) throws ErreurPile {
         if (estVide()) {
-            empiler(v);
+            super.empiler(v);
         } else if (sommet().val > v.val) {
-                    empiler(v);
+                    super.empiler(v);
         } else { throw new ErreurTour();}
     }
 }
