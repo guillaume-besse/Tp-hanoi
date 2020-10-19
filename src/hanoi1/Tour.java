@@ -9,6 +9,16 @@ public class Tour extends Pile<Disque> {
     // Leve l'exception ErreurTour si on essaye d'empiler un Disque
     // sur un disque strictement plus petit.
     public void empiler(Disque v) throws ErreurPile {
-        throw new UnsupportedOperationException();
+        if (estVide()) {
+            empiler(v);
+        } else {
+            try {
+                if (sommet().val > v.val) {
+                    empiler(v);
+                }
+            } catch (ErreurTour e) {
+                new ErreurTour();
+            }
+        }
     }
 }

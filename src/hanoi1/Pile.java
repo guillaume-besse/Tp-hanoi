@@ -1,6 +1,7 @@
 package hanoi1;
 // Pile Homogene de <T>, de capacite fixee a l'instantiation
 
+//Salut salut
 public class Pile<T> {
     final int capacite;
 
