@@ -11,14 +11,8 @@ public class Tour extends Pile<Disque> {
     public void empiler(Disque v) throws ErreurPile {
         if (estVide()) {
             empiler(v);
-        } else {
-            try {
-                if (sommet().val > v.val) {
+        } else if (sommet().val > v.val) {
                     empiler(v);
-                }
-            } catch (ErreurTour e) {
-                new ErreurTour();
-            }
-        }
+        } else { throw new ErreurTour();}
     }
 }

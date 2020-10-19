@@ -1,3 +1,5 @@
+
+package hanoi2;
 import java.util.ArrayList;
 
 public class Hanoi<C> { // En tete tres approximatif.

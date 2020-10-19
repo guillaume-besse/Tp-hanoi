@@ -1,3 +1,4 @@
+package hanoi2;
 import hanoi1.Pile;
 
 public class Tour<T> extends Pile<T> { // Tres approximatif

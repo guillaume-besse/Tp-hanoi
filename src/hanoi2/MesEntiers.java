@@ -1,3 +1,4 @@
+package hanoi2;
 class MesEntiers implements Comparable<MesEntiers> {
     Integer val;
 
