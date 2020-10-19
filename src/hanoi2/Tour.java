@@ -1,7 +1,8 @@
 package hanoi2;
+import hanoi1.Disque;
 import hanoi1.Pile;
 
-public class Tour<T> extends Pile<T> { // Tres approximatif
+public class Tour<T> extends Pile<? extends Comparable> { // Tres approximatif
 
     public Tour(int capa) {
 	super(capa);

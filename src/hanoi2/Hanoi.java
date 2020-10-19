@@ -2,6 +2,8 @@
 package hanoi2;
 import java.util.ArrayList;
 
+import hanoi1.ErreurTour;
+
 public class Hanoi<C> { // En tete tres approximatif.
 
     protected Tour<C> depart, milieu, arrivee;
