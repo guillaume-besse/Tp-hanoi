@@ -6,7 +6,7 @@ public class Pile<T> {
 
     // suppose 'capa' strictement positif !
     public Pile(int capa) {
-        capacite=capa;
+        capacite=capa; // kjnqvlkjdsbqskjldbgskjl
     }
 
     // Doit lever l'exception si la pile est pleine
