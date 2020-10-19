@@ -2,7 +2,7 @@ package hanoi1;
 public class Tour extends Pile<Disque> {
 
     public Tour(int capa) {
-	super(capa);
+	super(capa);// test
     }
 
     // Propage les exceptions levees par Pile si elles surviennent
