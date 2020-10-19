@@ -11,7 +11,8 @@ public class Pile<T> {
 
     // suppose 'capa' strictement positif !
     public Pile(int capa) {
-        capacite=capa; 
+        capacite=capa;
+        contenu=new ArrayList<T>();
     }
 
     // Doit lever l'exception si la pile est pleine
