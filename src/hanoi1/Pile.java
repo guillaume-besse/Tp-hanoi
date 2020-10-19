@@ -61,10 +61,10 @@ public class Pile<T> {
 
     /* on imprime le sommet de pile au dessus ! */
     public void affiche () { 
-        try {
-			System.out.println(sommet().toString());
-		} catch (ErreurPile e) {
-			System.out.println("Pile vide");
+        
+		for(int i=contenu.size()-1;i>=0;i--) {
+			System.out.println(contenu.get(i).toString());
 		}
+        	
     }
 }
