@@ -1,5 +1,5 @@
 package hanoi2;
-public class TourNommee<T> extends Tour<T> { // tres approximatif
+public class TourNommee<T extends Comparable<? super T>> extends Tour<T> { // tres approximatif
 
     protected String nom;
 

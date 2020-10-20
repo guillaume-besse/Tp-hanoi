@@ -2,14 +2,14 @@
 package hanoi2;
 import java.util.ArrayList;
 
-import hanoi1.ErreurTour;
 
-public class Hanoi<C> { // En tete tres approximatif.
+
+public class Hanoi<C extends Comparable<? super C>> { // ok.
 
     protected Tour<C> depart, milieu, arrivee;
 
 
-    public Hanoi(ArrayList<C> inits) throws ErreurPile { // En tete tres approximatif.
+    public Hanoi(ArrayList<? extends C> inits) throws ErreurPile { // ca c'est bon
 	int nb = inits.size();
 	depart = new Tour<C>(nb);
         milieu = new Tour<C>(nb);

@@ -1,7 +1,7 @@
 package hanoi2;
 import java.util.ArrayList;
 
-public class HanoiNommee<C> extends Hanoi<C> { // Approximatif
+public class HanoiNommee<C extends Comparable<? super C>> extends Hanoi<C> { // Approximatif
 
     public HanoiNommee(ArrayList<C> inits) throws ErreurPile { // Approximatif
 	super(inits);
